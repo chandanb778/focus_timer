@@ -1,0 +1,39 @@
+@import './variables.css';
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  font-family: var(--font);
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  font-size: 128px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: var(--text);
+  margin-bottom: 40px;
+}
+
+button {
+  font-size: 18px;
+  background: var(--accent);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
