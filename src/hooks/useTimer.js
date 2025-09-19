@@ -14,7 +14,7 @@ export function useTimer(initialTime = 45 * 60, onComplete = () => {}) {
           clearInterval(intervalRef.current);
           setIsRunning(false);
           onComplete(); // ✅ CALL REMINDER FUNCTION
-          return 0;
+          return 0 ;
         }
         return prev - 60;
       });
